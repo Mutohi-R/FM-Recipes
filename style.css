@@ -1,0 +1,74 @@
+:root {
+    /* Color variables */
+    --white: hsl(0, 0%, 100%);
+    --stone-100: hsl(30, 54%, 90%);
+    --stone-150: hsl(30, 18%, 87%);
+    --stone-600: hsl(30, 10%, 34%);
+    --stone-900: hsl(24, 5%, 18%);
+    --brown-800: hsl(14, 45%, 36%);
+    --rose-800: hsl(332, 51%, 32%);
+    --rose-50: hsl(330, 100%, 98%);
+}
+
+/* CSS RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+/* General Styles */
+body {
+    font-size: 16px;
+    font-family: "Outfit";
+    color: var(--stone-600);
+}
+
+h1, h2, h3 {
+    font-family: "Young Serif";
+    color: var(--stone-900);
+}
+
+main {
+    max-width: 1000px;
+    border: 2px dashed rebeccapurple;
+    /* margin: margin-top margin-right margin-bottom margin-left */
+    margin: 0 auto;
+    margin-top: 40px;
+    padding: 20px;
+}
+
+main img {
+    border-radius: 20px;
+}
+
+.article-heading {
+    margin-block: 20px; 
+}
+
+.special-heading {
+    font-size: 20px;
+    color: var(--rose-800);
+}
+
+.preparation-time {
+    background-color: var(--rose-50);
+    margin-block: 20px;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.preparation-time ul {
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.preparation-time ul span {
+    font-weight: bold;
+}
